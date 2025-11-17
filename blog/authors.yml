@@ -1,25 +1,11 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+seven:
+  name: SevenTangWei
+  title: Hello
+  url: https://senventangwei.github.io/me
+  image_url: https://avatars.githubusercontent.com/u/107684428?s=400&u=8c465e9eab17f739e63f42e784808b5687954153&v=4
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: seventangwei
+    linkedin: seventangwei
+    github: seventangwei
+    newsletter: https://senventangwei.github.io/me
