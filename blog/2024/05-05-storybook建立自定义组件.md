@@ -10,7 +10,7 @@ image: '/img/blog/echarts.jpg'
 
 #### 基于storybook自定义charts组件的文档
 
-[storybook](https://storybook.js.org/docs)是一个UI组件的开发环境，它可以帮助你创建、预览和测试你的UI组件。在这个文档中，我们将介绍如何使用storybook来创建一个自定义的[charts组件](基于echarts库的自定义组件)。
+[storybook](https://storybook.js.org/docs)是一个UI组件的开发环境，它可以帮助你创建、预览和测试你的UI组件。在这个文档中，我们将介绍如何使用storybook来创建一个自定义的charts组件。
 
 ##### 1. 安装storybook并创建storybook项目
 
@@ -51,6 +51,8 @@ npm create storybook@latest
 > 在storybook中，[插件](https://storybook.js.org/addons)是主流，用插件添加一些常用的功能，如文档、样式、测试等。
 
 . 配置.storybook/main.ts
+
+<!-- truncate -->
 
 ```ts
 import type { StorybookConfig } from '@storybook/react-vite';

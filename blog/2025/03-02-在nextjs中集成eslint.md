@@ -81,6 +81,8 @@ npm install lint-staged --save-dev
 
 #### 增加.lintstagedrc文件
 
+<!-- truncate -->
+
 ```js
 import { ESLint } from 'eslint';
 import path from 'path';
