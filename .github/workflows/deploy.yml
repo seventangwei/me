@@ -51,7 +51,7 @@ jobs:
         run: npm ci
         
       - name: Build with Docusaurus
-        run: npm run build -- --ignore-errors -- --ignore-errors
+        run: npm run build
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
