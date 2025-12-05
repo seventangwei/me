@@ -100,7 +100,7 @@ export default function Hero() {
         <div className={styles.dotLottie}>
           <DotLottieReact
             // src="https://lottie.host/11ac9c11-85c3-4e1d-9f05-3b4e35d76d51/xYXyJvO0Lu.lottie"
-            src="/hero.lottie"
+            src="/me/hero.lottie"
             loop
             autoplay
             renderConfig={{ autoResize: true }}

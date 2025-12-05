@@ -22,12 +22,12 @@ const config: Config = {
   url: 'https://senventangwei.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/me',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'seventangwei', // Usually your GitHub org/user name.
-  projectName: 'seven.github.io', // Usually your repo name.
+  projectName: 'me', // Usually your repo name.
 
   onBrokenLinks: isCI ? 'warn' : 'throw',
   onBrokenMarkdownLinks: isCI ? 'warn' : 'throw',
