@@ -16,7 +16,7 @@ export default [
   ...ts.configs.recommended,
   // ...tailwind.configs['flat/recommended'],
   {
-    files: ['**/*.ts', '**/*.tsx'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.jsx', '**/*.js'],
     plugins: {
       react: react,
     },
@@ -27,10 +27,11 @@ export default [
       '@typescript-eslint/no-require-imports': 'off',
       '@typescript-eslint/no-empty-object-type': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
-      'no-console': ['error', { allow: ['warn', 'error', 'debug'] }],
+      'no-console': ['error', { allow: ['warn', 'error', 'debug', 'log'] }],
 
       'tailwindcss/no-custom-classname': 'off',
       '@stylistic/semi': ['error', 'always'],
+      '@typescript-eslint/no-require-imports': 'off',
     },
   },
 ]
