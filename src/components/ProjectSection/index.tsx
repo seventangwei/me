@@ -50,6 +50,8 @@ const Slider = ({ items }: { items: Project[] }) => {
                   src={project.image}
                   alt={project.title}
                   className="w-full object-cover hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                  decoding="async"
                 />
               </Link>
 

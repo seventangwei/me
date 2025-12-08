@@ -65,7 +65,16 @@ const config: Config = {
 
   plugins: [
     'docusaurus-plugin-image-zoom',
-    '@docusaurus/plugin-ideal-image',
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max res image
+        min: 640, // min res image
+        steps: 3, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
     // 显示定义没有setGlobalData也是拿不到全局数据
     // [
     //   '@docusaurus/plugin-content-blog',

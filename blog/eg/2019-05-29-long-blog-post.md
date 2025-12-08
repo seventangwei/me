@@ -3,7 +3,6 @@ slug: long-blog-post
 title: Long Blog Post
 authors: seven
 tags: [hello, docusaurus]
-showInHome: true
 image: 'https://zhiyan-ai-agent-with-1258344702.cos.ap-guangzhou.tencentcos.cn/with/eb9bf7df-dede-4dbe-abd6-7edeebb67cf1/image_1760081925_2_1.jpg'
 
 ---

@@ -46,7 +46,14 @@ function Name() {
         <Translate id="homepage.hero.name">唐伟</Translate>
       </span>
       {/* <span className="ml-1">👋</span> */}
-      <img style={{ width: 85, height: 85 }} className="ml-1" src={Hello}></img>
+      <img 
+        style={{ width: 85, height: 85 }} 
+        className="ml-1" 
+        src={Hello}
+        loading="eager"
+        decoding="async"
+        alt="Hello animation"
+      />
       {/* <NameSvg></NameSvg> */}
     </motion.div>
   );
