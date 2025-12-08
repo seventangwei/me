@@ -19,7 +19,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://senventangwei.github.io',
+  url: 'https://senventangwei.cn',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -229,9 +229,9 @@ const config: Config = {
     //     `,
     // },
     algolia: {
-      appId: 'KIZC53G9JP',
-      apiKey: '3a64d383361796a3891c1b33b3f6a6e6',
-      indexName: 'seven',
+      appId: '8HZJNZIC4V',
+      apiKey: 'e9449ee45f157c80b24a1d0df26f83c1',
+      indexName: 'seventangwei',
       contextualSearch: true,
     },
     prism: {
