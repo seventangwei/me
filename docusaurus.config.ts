@@ -169,7 +169,7 @@ const config: Config = {
             {
               type: 'docSidebar',
               sidebarId: 'knowledge',
-              label: 'knowledge',
+              label: 'Knowledge',
             },
             {
               type: 'docSidebar',

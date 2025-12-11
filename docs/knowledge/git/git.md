@@ -1,6 +1,3 @@
----
-sidebarDepth: 4
----
 # Git
 
 ## 基础命令

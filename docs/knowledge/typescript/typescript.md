@@ -1,5 +1,8 @@
+---
+sidebar_position: 4
+---
 
-# 基础
+# TypeScript
 ## 类型推导
 
 ``` tsx
