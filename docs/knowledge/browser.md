@@ -467,15 +467,15 @@ const data = jwt.verify(token, 'key')
 
 同源/同域要求两个源的协议、完整域名、端口号都完全相同。
 
-![](/img/page/sameorigin.png)
+![](../../static/img/page/sameorigin.png)
 
 #### 跨站（Cross Site）
 
-![](/img/page/tld.png)
+![](../../static/img/page/tld.png)
 
 同站要求两个源的顶级域和一级域都相同，即这里的`TLD+1`完全相同。
 
-![](/img/page/samesite.png)
+![](../../static/img/page/samesite.png)
 
 ### 跨域资源共享（CORS）
 
