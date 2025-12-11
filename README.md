@@ -1,42 +1,67 @@
-# Website
-[直通车](https://senventangwei.github.io/me)
+# Personal Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+一个基于 Docusaurus v3 构建的个人网站，记录技术博客、知识文档和个人项目，欢迎平常。
+- [预览直通车](https://senventangwei.cn)
 
-## Installation
+## 📁 项目结构
 
-```bash
-yarn
+```
+me/
+├── .github                  # GitHub 工作流配置
+├── blog/                    # 博客文章目录
+├── docs/                    # 文档目录
+│   ├── docs-eg/            # 示例文档
+│   └── knowledge/          # 知识库
+├── src/                    # 源代码目录
+│   ├── components/         # React 组件
+│   ├── css/               # 样式文件
+│   │   ├── custom.css     # 自定义样式
+│   │   └── tailwind.css   # Tailwind 样式
+│   ├── hooks/             # React Hooks
+│   ├── pages/             # 页面组件
+│   ├── plugins/           # 自定义插件
+│   └── theme/             # 主题组件
+├── static/                # 静态资源
+├── data/                  # 数据文件
+├── scripts/               # 脚本文件
+├── docusaurus.config.ts   # Docusaurus 配置
+├── sidebars.ts           # 侧边栏配置
+├── tailwind.config.js    # Tailwind 配置
+├── tsconfig.json         # TypeScript 配置
+├── package.json          # 项目依赖
+└── README.md             # 项目说明
 ```
 
-## Local Development
+## 🚀 快速开始
 
 ```bash
-yarn start
+npm install
+npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+访问 http://localhost:3000 查看网站。
 
-## Build
 
-```bash
-yarn build
+## 📝 内容管理
+
+### 添加博客文章
+
+在 `blog/` 目录下创建新的 MD/MDX 文件：
+
+```markdown
+---
+title: "title"
+date: "date"
+tags: []
+---
+
+detail...
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### 添加文档
 
-## Deployment
+在 `docs/` 目录下创建 MD/MDX，并在 `sidebars.ts` 中配置侧边栏。
 
-Using SSH:
+---
 
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+*持续更新中...，欢迎提交 Issue 和 Pull Request 来改进这个项目。*
