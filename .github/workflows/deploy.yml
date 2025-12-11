@@ -4,12 +4,14 @@ on:
   push:
     branches: [ master ]
     paths-ignore:
-      - 'README.md'
+      # - 'README.md'
       - 'LICENSE'
       - '.gitignore'
-      - '.github/**'
-      - 'docs/**'
-      - 'blog/**'
+      - 'eslint.config.mjs'
+      - 'scripts/**'
+      # - '.github/**'
+      # - 'docs/**'
+      # - 'blog/**'
 
   # 允许手动触发部署
   workflow_dispatch:
