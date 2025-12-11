@@ -142,6 +142,10 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'keywords', content: 'javascript, react, typescript, blog, docs' },
+      { name: 'seven', content: 'node, nodejs, seo' },
+    ],
     // Replace with your project's social card
     image: 'https://avatars.githubusercontent.com/u/107684428?s=400&u=8c465e9eab17f739e63f42e784808b5687954153&v=4',
     colorMode: {
