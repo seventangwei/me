@@ -232,11 +232,20 @@ const config: Config = {
     //     <p>Copyright © 2020 - ${new Date().getFullYear()} Seven. | Built with Docusaurus.</p>
     //     `,
     // },
+    // 一开始是自定义的爬虫，而docusaurus是用Algolia DocSearch。实现的组件，这样写需要在爬虫配置里实现selectors返回hierarchy
+    // algolia: {
+    //   appId: '8HZJNZIC4V',
+    //   apiKey: 'e67cb068df4b53b1e6ed0394c391374e',
+    //   indexName: 'seventangwei_crawler_pages',
+    //   contextualSearch: false,
+    //   searchParameters: {
+    //     facetFilters: [['content', 'keywords'], 'headers', 'title', 'depth'],
+    //   },
+    // },
     algolia: {
-      appId: '8HZJNZIC4V',
-      apiKey: 'e9449ee45f157c80b24a1d0df26f83c1',
-      indexName: 'seventangwei',
-      contextualSearch: true,
+      appId: '0Z2HFVV4NT',
+      apiKey: 'faddef03753fc0428919a217be5cda86',
+      indexName: 'seventangwei-doc-crawl',
     },
     prism: {
       theme: prismThemes.github,
